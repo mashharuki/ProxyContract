@@ -6,6 +6,7 @@ OpenZeppelinが用意してくれているのでそれを使う。
 
 ### 参考文献
  1. <a href="https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades">truffle-upgrades</a>
+ 2. <a href="https://blog.shinonome.io/transparent-proxy-pattern-contracts/">Transparent Proxy Patternでスマートコントラクトをアップグレーダブルにする</a>
 
 ### テストの結果
 ```cmd
