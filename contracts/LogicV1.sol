@@ -6,7 +6,7 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "./interfaces/ILogic.sol";
 
 /**
- * LogicV1コントラクト(コンストラクターの代わり)
+ * LogicV1コントラクト
  * 向き先を変更する前のコントラクト
  */
 contract LogicV1 is Initializable, ILogic {
@@ -15,7 +15,7 @@ contract LogicV1 is Initializable, ILogic {
   uint256 public value;
 
   /**
-   * 初期化用の関数
+   * 初期化用の関数(コンストラクターの代わり)
    * @param _value 任意の値
    */
   function initialize(uint256 _value) public override initializer {
