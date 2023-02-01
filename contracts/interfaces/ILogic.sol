@@ -4,6 +4,9 @@ pragma solidity ^0.8.11;
 // 必要なモジュールをインポートする。
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
+/**
+ * ILogic インターフェース
+ */
 interface ILogic {
     function initialize(uint256 _value) external;
 
