@@ -43,5 +43,5 @@ contract ("proxy Contract tests!!", accounts => {
             // check
             assert.equal(value2.toString(), '90');
         });
-      });
+    });
 });

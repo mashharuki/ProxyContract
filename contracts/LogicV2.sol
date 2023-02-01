@@ -7,7 +7,7 @@ import "./interfaces/ILogic.sol";
 
 /**
  * LogicV2コントラクト
- * 向き先を変更した後のコントラクト
+ * 向き先を変更した後のコントラクト(ここにはロジックのみを記載しておりProxyコントラクトの先にある)
  */
 contract LogicV2 is Initializable, ILogic {
 
